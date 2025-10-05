@@ -51,7 +51,7 @@ export default function Hero() {
               path="/animations/JSON.json" // ✅ Load directly from public folder
               loop={true}
               autoplay={true}
-              className="w-200 h-100"
+              className="w-220 h-100"
             />
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function Hero() {
                 src={`/${brand}.svg`}
                 alt={brand}
                 width={100}
-                height={40}
+                height={50}
                 className="opacity-90"
               />
             </div>
